@@ -5,7 +5,7 @@ using System.Text.Json;
 using RabbitMQ.Client;
 using Shared;
 
-//RabbitMQ connection
+//RabbitMQ connection.
 var factory = new ConnectionFactory(){HostName="localhost"};
 
 using var connection=factory.CreateConnection();
